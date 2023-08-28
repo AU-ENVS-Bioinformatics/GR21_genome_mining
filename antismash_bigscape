@@ -1,0 +1,10 @@
+
+
+
+
+
+For isolates:
+antismash --cb-general --cb-knownclusters --cb-subclusters --asf --pfam2go --smcog-trees --genefinding-tool "none"
+
+For MAGs:
+antismash --cb-general --cb-knownclusters --cb-subclusters --asf --pfam2go --smcog-trees --genefinding-tool "prodigal-m" 
